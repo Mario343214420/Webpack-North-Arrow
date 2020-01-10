@@ -2,15 +2,15 @@
 
 ---
 
-#webpack 打包指北
-###demo1 基本js打包
-###demo2 批量js打包处理
-###demo3 react.js工具打包处理
-###demo4 stylus编译打包处理
-###demo5 图片打包处理（包含详细说明）
+#webpack 打包指北  <br>
+###demo1 基本js打包 <br>
+###demo2 批量js打包处理 <br>
+###demo3 react.js工具打包处理 <br>
+###demo4 stylus编译打包处理 <br>
+###demo5 图片打包处理（包含详细说明） <br>
 
 可配置打包图片，可转base64
-###demo6 CSS模块化
+###demo6 CSS模块化 <br>
 
 * :global打包工具不会对其操作 （需验证）
 
@@ -29,17 +29,17 @@
   color: green;
 }
 ```
-###demo7 JS压缩
-###demo8 自动打开浏览器
+###demo7 JS压缩 <br>
+###demo8 自动打开浏览器 <br>
 html-webpack-plugin可以为您创建index.html，而打开浏览器- Webpack -plugin可以在Webpack加载时打开一个新的浏览器标签。
-###demo9 js运行环境配置
+###demo9 js运行环境配置 <br>
 不同环境运行不同代码。<br>
 您只能在开发环境中使用环境标志来启用某些代码。
-###demo10 代码分割
+###demo10 代码分割 <br>
 在大型项目开发中，将所有代码压缩进同一js文件中效率较低，比如使用three.js并编写大量代码，使用单一js文件运行，请求获取完该文件才会运行，此时若存在网速慢等问题，会造成页面获取该js文件后才渲染，甚至报错。若将不同功能代码段分割，分步骤逐步加载，便能够更高效的展示页面，并提供相应功能。
 ###demo11 bundle-loader 工具进行代码分割
 使用 [bundle-loader](https://www.npmjs.com/package/bundle-loader) 工具分割代码
-###demo12 图片打包处理（包含详细说明）
+###demo12 图片打包处理（包含详细说明） <br>
 ```
 Error: webpack.optimize.CommonsChunkPlugin has been removed, please use config.optimization.splitChunks instead.
 ```
@@ -68,7 +68,7 @@ optimization:{
   }
 ```
 
-###demo13 
+###demo13  <br>
 > webpack build生成app、vendor、manifest的区别:
 
 vendor.js: 默认将node_modules里require的依赖都打包在这里
