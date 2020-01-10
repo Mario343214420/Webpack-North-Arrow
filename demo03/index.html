@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo03</title>
+</head>
+<body>
+<div id="app"></div>
+<canvas id="myCanvas"></canvas>
+<div id="svgBox"></div>
+<script src="./dist/bundle1.js"></script>
+<script>
+
+  const img = new Image()
+  img.src = "../images/1.jpg"
+
+  let myCanvas = document.getElementById("myCanvas")
+  let ctx = myCanvas.getContext("2d")
+  let svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+      <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:40px">
+          ${img}
+        </div>
+      </foreignObject>
+    </svg>
+  `
+  myCanvas.width = img.width
+  myCanvas.height = img.height
+  ctx.drawImage(img,0,0)
+  let blob = new Blob()
+  console.log (blob)
+
+  var svgBox = document.getElementById("svgBox")
+  svgBox.innerHTML = svg
+  document.getElementById("")
+</script>
+</body>
+</html>

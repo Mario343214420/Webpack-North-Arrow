@@ -1,0 +1,13 @@
+{
+  "name": "demo02",
+  "version": "1.0.0",
+  "dependencies": {},
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "build": "webpack -p"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
