@@ -195,4 +195,5 @@ externals: {
 ```"analyz": "NODE_ENV=production npm_config_report=true npm run build"```
 
 对此可以分析研究，采取办法过滤掉重复的内容等... ... 其他还有诸如开启压缩啦，开启 Gzip 之类等等，来减小包的体积。
+
 ---
