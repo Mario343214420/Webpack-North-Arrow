@@ -4,7 +4,10 @@
 
 ---
 ###demo1 基本js打包
-
+<h6>1.安装依赖库<h6>
+<h6>2.进入demo文件路径下，运行npm build打包dist文件<h6>
+<h6>3.对比打包配置结果<h6>
+<h6>for example demo01/dist<h6>
 ---
 ###demo2 批量js打包处理
 
