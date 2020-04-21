@@ -29,10 +29,12 @@
 
 * :local会操作成哈希值压缩过的类名 （需验证）
 
+经验证没有问题，但是会打包至bundle.js中
 ```
 :local(.title) {
   color: red;
 }
+
 //上面这种写法相当于
 .titlt{
   color: red;
