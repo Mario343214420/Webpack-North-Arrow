@@ -29,7 +29,8 @@
 
 * :local会操作成哈希值压缩过的类名 （需验证）
 
-经验证没有问题，但是会打包至bundle.js中
+经验证没有问题，但是会打包至bundle.js中 <br>
+使用该demo打包需要使用命令行操作
 ```
 :local(.title) {
   color: red;
