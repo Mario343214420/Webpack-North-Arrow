@@ -12,12 +12,12 @@
 <h6>for example demo01/dist<h6>
   
 ---
-  
 ### demo2 批量js打包处理
+<h6>js文件打包合并<h6>
 
 ---
-
 ### demo3 react.js工具打包处理
+<h6>react.js打包合并<h6>
 
 ---
 
